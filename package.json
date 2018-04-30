@@ -1,6 +1,6 @@
 {
   "name": "chase-storage",
-  "version": "0.0.0-dev.0",
+  "version": "0.0.0-dev.1",
   "description": "chase's edition of cross-storage for x-domain localstorage",
   "keywords": [
     "local",
