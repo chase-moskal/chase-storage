@@ -11,5 +11,7 @@
 		"coverage": true,
 		"node_modules": true,
 		"*.log*": true
-	}
+	},
+
+	"typescript.tsdk": "node_modules/typescript/lib/"
 }

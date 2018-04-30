@@ -39,6 +39,7 @@
     "gulp-uglify": "3.0.0",
     "jshint": "2.9.5",
     "serve-static": "1.13.2",
+    "typescript": "2.8.3",
     "zuul": "3.11.1"
   }
 }
