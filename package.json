@@ -16,6 +16,15 @@
     "type": "git",
     "url": "https://github.com/zendesk/cross-storage.git"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "gulp dist",
+    "test": "./node_modules/.bin/zuul --local 8080 --ui mocha-bdd -- test/test.js",
+    "saucetest": "./node_modules/.bin/zuul --ui mocha-bdd -- test/test.js"
+  },
   "devDependencies": {
     "connect": "3.6.6",
     "expect.js": "0.3.1",
@@ -28,9 +37,5 @@
     "jshint": "2.9.5",
     "serve-static": "1.13.2",
     "zuul": "3.11.1"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/zuul --local 8080 --ui mocha-bdd -- test/test.js",
-    "saucetest": "./node_modules/.bin/zuul --ui mocha-bdd -- test/test.js"
   }
 }
