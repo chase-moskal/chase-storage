@@ -1,7 +1,7 @@
 {
-  "name": "cross-storage",
-  "version": "1.0.0",
-  "description": "Cross domain local storage",
+  "name": "chase-storage",
+  "version": "0.0.0-dev.0",
+  "description": "chase's edition of cross-storage for x-domain localstorage",
   "keywords": [
     "local",
     "storage",
@@ -9,7 +9,10 @@
     "domain"
   ],
   "main": "lib/index.js",
-  "author": "Daniel St. Jules <danielst.jules@gmail.com>",
+  "contributors": [
+    "Daniel St. Jules <danielst.jules@gmail.com>",
+    "Chase Moskal <chasemoskal@gmail.com>"
+  ],
   "license": "Apache-2.0",
   "homepage": "https://github.com/zendesk/cross-storage",
   "repository": {

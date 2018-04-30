@@ -1,3 +1,29 @@
+
+# CHASE-STORAGE <br/> A fork of Zendesk's `cross-storage`
+
+`npm install chase-storage`
+
+differences from [cross-storage](https://github.com/zendesk/cross-storage)
+
+1. **`vscode`**  
+  added some vscode editor settings (indentation to match project)
+
+2. **`package-cleanup`**  
+  update all npm packages, adapt to newer node/npm practices
+
+3. **`events`**  
+  merged the old cross-storage 'events' pr that's been ignored because
+  of an ie bug
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+--------
+
 ![cross-storage](https://github.com/zendesk/cross-storage/raw/master/media/logo.png)
 
 Cross domain local storage, with permissions. Enables multiple browser
