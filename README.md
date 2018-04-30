@@ -296,9 +296,13 @@ the average compression rate of your strings.
 
 ## Building
 
-The minified, production JavaScript can be generated with gulp by running
-`gulp dist`. If not already on your system, gulp can be installed using
-`npm install -g gulp`
+Just run `npm install`
+
+The build step, which minifies the production code in the `dist` directory, runs
+once during every `npm install` (during the `prepare` phase)
+
+You can also run the build manually via gulp by running `gulp dist` (to do this,
+you must have gulp installed globally with `npm install -g gulp`)
 
 ## Tests
 
